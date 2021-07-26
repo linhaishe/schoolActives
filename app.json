@@ -1,13 +1,47 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/actives/index",
+    "pages/newThings/index",
+    "pages/lostAndFound/index",
+    "pages/user/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+    "color": "#999",
+    "selectedColor": "#999",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/actives/index",
+        "text": "活动",
+        "iconPath": "icons/actives.png",
+        "selectedIconPath": "icons/activeActives.png"
+      },     
+      {
+        "pagePath": "pages/newThings/index",
+        "text": "新鲜事",
+        "iconPath": "icons/xinxianshi.png",
+        "selectedIconPath": "icons/activeActives.png"
+      },   
+      {
+        "pagePath": "pages/lostAndFound/index",
+        "text": "失物招领",
+        "iconPath": "icons/shiwuzhaoling.png",
+        "selectedIconPath": "icons/shiwuzhaolinActive.png"
+      },   
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/people.png",
+        "selectedIconPath": "icons/peopleActive.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
